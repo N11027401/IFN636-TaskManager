@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const axiosInstance = axios.create({
   //baseURL: 'http://localhost:5001', // local
-  baseURL: 'http://54.206.116.180:5001', // live
+  baseURL: 'http://3.107.72.147:5001', // live
   headers: { 'Content-Type': 'application/json' },
 });
 
